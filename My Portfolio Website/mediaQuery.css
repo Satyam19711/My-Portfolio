@@ -1,0 +1,294 @@
+@media (max-width: 1500px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .fillMessage {
+    width: 43.7rem;
+  }
+}
+
+@media (max-width: 1388px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .contact_div {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 1180px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .leftSection {
+    font-size: 2.5rem !important;
+    margin-top: -35px;
+    margin-left: 4px;
+  }
+
+  .secondSectionLeft {
+    width: 35% !important;
+    margin-left: -125px;
+    margin-top: 100px;
+  }
+
+  .contact_div {
+    font-size: 23px !important;
+  }
+
+  .fillEmail {
+    width: 580px !important;
+  }
+  .fillName {
+    width: 580px !important;
+  }
+  .fillMessage {
+    width: 581px;
+  }
+}
+
+@media (max-width: 945px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .mobile {
+    z-index: 1000 !important;
+    display: block !important;
+    /* border: 1px solid black; */
+  }
+  .right {
+    display: none !important;
+  }
+
+  .firstSection {
+    flex-direction: column-reverse;
+  }
+
+  .firstSection div {
+    width: 60% !important;
+  }
+
+  .rigthSection img {
+    margin-left: 120px !important;
+  }
+
+  .leftSection {
+    font-size: 2rem !important;
+    margin-top: -246px !important;
+    /* margin-left: 4px !important; */
+    text-align: center;
+  }
+
+  .hrFirst {
+    margin-top: -200px;
+  }
+
+  .secondSectionLeft img {
+    margin-left: 120px;
+    margin-top: 150px !important;
+  }
+  .secondSectionRight {
+    width: 64%;
+    margin-left: 110px;
+  }
+
+  .skillsIcon {
+    font-size: 100px !important;
+  }
+
+  .hrSecond {
+    margin-top: 150px !important;
+  }
+
+  .thirdHr {
+    margin-top: 60px !important;
+  }
+
+  .gitHubFirst img {
+    width: 85% !important;
+    margin-left: 50px;
+  }
+  .gitHubSecond img {
+    width: 94% !important;
+  }
+  /* .gitHubThird img{
+        width: 80% !important;
+       } */
+
+  .fifthSection {
+    flex-direction: column;
+  }
+  .fifthLeftSection {
+    width: 50% !important;
+    /* background-color: red; */
+  }
+
+  .contactMe {
+    font-size: 50px;
+  }
+
+  .fifthRightSection {
+    margin-left: 94px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .rigthSection {
+    margin-top: 100px !important;
+  }
+
+  .leftSection {
+    font-size: 1.8rem !important;
+    margin-bottom: 20px;
+  }
+
+  .firstSection div {
+    width: 110% !important;
+    margin-right: 81px;
+  }
+
+  .secondSection {
+    flex-direction: column;
+  }
+
+  .secondSectionLeft {
+    width: 120% !important;
+    /* background-color: red; */
+    margin-top: 0px;
+    margin-left: -185px !important;
+  }
+
+  .secondSectionLeft img {
+    margin-right: 200px !important;
+    /* background-color: rebeccapurple; */
+  }
+
+  .secondSectionRight {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.9rem;
+    width: 90% !important;
+    /* flex-wrap: wrap; */
+    margin-top: -35px;
+    margin-bottom: 4px;
+  }
+
+  .thirdSection {
+    margin-top: 135px;
+
+    margin-bottom: 175px;
+  }
+
+  .headingSkills {
+    font-size: 62px !important;
+  }
+
+  .skillsIcon {
+    font-size: 80px !important;
+    /* background-color: black; */
+  }
+  .skills {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-column-gap: 0px;
+grid-row-gap: 0px; */
+    gap: 5px;
+
+    text-align: center;
+  }
+
+  .thirdHr {
+    margin-top: 11px;
+  }
+  .githubStatsDiv {
+    flex-direction: column;
+  }
+
+  .fourthSection {
+    margin-top: 45px;
+    margin-bottom: 150px;
+  }
+  /* .githubStatsDiv div img{
+    width: 75%;
+    align-items: center;
+} */
+  .gitHubHeading a i {
+    font-size: 50px;
+  }
+
+  .gitHubHeading h3 {
+    font-size: 45px !important;
+    margin-bottom: 5px;
+  }
+
+  .gitHubFirst {
+    margin-left: -38px;
+    width: 111%;
+  }
+
+  .gitHubSecond {
+    margin-top: 15px;
+    margin-left: 11px;
+    width: 101%;
+  }
+  .gitHubThird {
+    width: 95%;
+    margin-left: 12px;
+  }
+
+  .fifthSection {
+    margin-top: 45px;
+  }
+
+  .fifthLeftSection {
+    width: 90% !important;
+    margin-left: -70px;
+  }
+
+  .contact_div h2 {
+    font-size: 35px !important;
+    margin-top: 5px;
+  }
+
+  .contact_div {
+    font-size: 27px !important;
+    display: flex;
+  }
+
+  .fifthRightSection {
+    margin-top: 30px !important;
+  }
+
+  .fillEmail {
+    width: 345px !important;
+    margin-left: -78px;
+  }
+  .fillName {
+    width: 345px !important;
+    margin-left: -78px;
+  }
+  .fillMessage {
+    width: 346px;
+    margin-left: -78px;
+  }
+
+  .messageSubmit {
+    margin-left: -78px;
+  }
+}
